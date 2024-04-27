@@ -17,6 +17,11 @@ jobs:
       - name: Checkout main repo
         uses: actions/checkout@v4
 
+      - name: Move md files to dummy folder
+        run: |
+          mkdir dummy
+          rsync -avm --include='*.md' --exclude='*' "./" "./dummy" 
+
       - name: Checkout SSG
         uses: actions/checkout@v4
         with:
@@ -33,7 +38,7 @@ jobs:
         run: mv ./.config ./ssg/src/config
 
       - name: Move markdown files
-        run: mv ./* ./ssg/src/posts/
+        run: mv ./dummy/* ./ssg/src/posts/
 
       - name: Copy images to public/
         run: |
