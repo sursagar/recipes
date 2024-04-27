@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Move md files to dummy folder
-        run: mkdir dummy && mv ./* dummy/ 
+        run: mv ./* dummy/ 
 
       - name: Checkout SSG
         uses: actions/checkout@v4
