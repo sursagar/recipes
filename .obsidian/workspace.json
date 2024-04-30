@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "062430f5c9aecbd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biryani.md",
+                "file": "Hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Biryani.md",
+                "file": "Hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Biryani.md"
+                "file": "Hello.md"
               }
             }
           }
@@ -146,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74f9c6d7d1c5b069",
+  "active": "062430f5c9aecbd7",
   "lastOpenFiles": [
     "Biryani.md",
-    "Welcome.md",
-    "Untitled.md"
+    "Hello.md",
+    "Welcome.md"
   ]
 }
